@@ -1,0 +1,596 @@
+body{
+  margin:10px;
+  padding: 10px;
+  background: #090f16;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header{
+  font-size: 28px;
+  font-family: 'Black Han Sans', sans-serif;
+  text-align: center;
+  border-radius: 50px;
+  border: 2px solid;
+  border-color: black;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  text-shadow: 0px 2px 0px black,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+  margin: 4px;
+  padding: 4px;
+  width: 50%;
+  height: 50%;
+              
+}
+
+.nav{
+  background: transparent;
+  border-radius: 22px;
+  border: 2px solid;
+  border-color: black;
+  margin: 26px;
+  padding: 4px;
+  width: 80%;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+}
+
+iframe{
+  border-radius: 22px;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  border: 2px solid brown;
+  transition: all 1.5s;
+  border-color: #526261;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+iframe:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 0px black;
+}
+
+.aside{
+  font-family: 'Black Han Sans', sans-serif;
+  background: transparent;
+  border-radius: 22px;
+  border: 2px solid;
+  border-color: black;
+  width: 26%;
+  height: 310px;
+  float: left;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  color: #f0f0ff;
+  
+}
+
+.section{
+  font-family: 'Black Han Sans', sans-serif;
+  background: black;
+  background-size: cover;
+  border-radius: 22px;
+  border: 2px solid;
+  border-color: #f0f0ff;
+  width: 72%;
+  height: 340px;
+  float: right;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  padding: 0px;
+  margin: 2px;
+}
+
+.section2{
+  
+  font-family: 'Black Han Sans', sans-serif;
+  background: black;
+  background-size: cover;
+  border-radius: 22px;
+  border: 2px solid;
+  border-color: #f0f0ff;
+  width: 64%;
+  height: 440px;
+  text-align: center;
+  float: left;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  padding: 0px;
+  margin: 24px;
+}
+
+
+.ico{
+  font-size: 22px;
+  text-align: center;
+  text-shadow: 0px 2px 0px black,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+  margin: 2px;
+  color: #f0f0ff;
+  
+}
+
+
+.tt{
+  font-family: 'Play', sans-serif;
+  font-size: 13px;
+  color: #f0f0ff;
+  text-align: center;
+  padding: 2px;
+  margin: 8px;
+}
+
+
+.ico2{
+  font-size: 22px;
+  text-align: center;
+  text-shadow: 0px 2px 0px black,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+  margin: 2px;
+  color: #f0f0ff;
+  
+}
+
+
+.tt2{
+  font-family: 'Play', sans-serif;
+  font-size: 11px;
+  color: #f0f0ff;
+  text-align: center;
+  padding: 2px;
+  margin: 8px;
+}
+
+
+.section3{
+  
+  font-family: 'Black Han Sans', sans-serif;
+  background: black;
+  background-size: cover;
+  border-radius: 22px;
+  border: 2px solid;
+  border-color: #f0f0ff;
+  width: 64%;
+  height: 350px;
+  text-align: center;
+  float: left;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  padding: 0px;
+  margin: 24px;
+}
+
+
+.ico3{
+  font-size: 22px;
+  text-align: center;
+  text-shadow: 0px 2px 0px black,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+  margin: 2px;
+  color: #f0f0ff;
+  
+}
+
+
+.tt3{
+  font-family: 'Play', sans-serif;
+  font-size: 13px;
+  color: #f0f0ff;
+  text-align: center;
+  padding: 2px;
+  margin: 8px;
+}
+
+.section4{
+  
+  font-family: 'Black Han Sans', sans-serif;
+  background: black;
+  background-size: cover;
+  border-radius: 22px;
+  border: 2px solid;
+  border-color: #f0f0ff;
+  width: 64%;
+  height: 310px;
+  text-align: center;
+  float: left;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  padding: 0px;
+  margin: 24px;
+}
+
+
+.ico4{
+  font-size: 22px;
+  text-align: center;
+  text-shadow: 0px 2px 0px black,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+  margin: 2px;
+  color: #f0f0ff;
+  
+}
+
+
+.tt4{
+  font-family: 'Play', sans-serif;
+  font-size: 13px;
+  color: #f0f0ff;
+  text-align: center;
+  padding: 2px;
+  margin: 8px;
+}
+
+.section5{
+  
+  font-family: 'Black Han Sans', sans-serif;
+  background: black;
+  background-size: cover;
+  border-radius: 22px;
+  border: 2px solid;
+  border-color: #f0f0ff;
+  width: 64%;
+  height: 300px;
+  text-align: center;
+  float: left;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  padding: 0px;
+  margin: 24px;
+}
+
+
+.ico5{
+  font-size: 22px;
+  text-align: center;
+  text-shadow: 0px 2px 0px black,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+  margin: 2px;
+  color: #f0f0ff;
+  
+}
+
+
+.tt5{
+  font-family: 'Play', sans-serif;
+  font-size: 13px;
+  color: #f0f0ff;
+  text-align: center;
+  padding: 2px;
+  margin: 8px;
+}
+
+.section6{
+  
+  font-family: 'Black Han Sans', sans-serif;
+  background: black;
+  background-size: cover;
+  border-radius: 22px;
+  border: 2px solid;
+  border-color: #f0f0ff;
+  width: 44%;
+  height: 400px;
+  text-align: center;
+  float: left;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  padding: 0px;
+  margin: 24px;
+}
+
+
+.ico6{
+  font-size: 22px;
+  text-align: center;
+  text-shadow: 0px 2px 0px black,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+  margin: 2px;
+  color: #f0f0ff;
+}
+
+.section7{
+  
+  font-family: 'Black Han Sans', sans-serif;
+  background: black;
+  background-size: cover;
+  border-radius: 22px;
+  border: 2px solid;
+  border-color: #f0f0ff;
+  width: 44%;
+  height: 400px;
+  text-align: center;
+  float: left;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  padding: 0px;
+  margin: 24px;
+}
+
+
+.ico7{
+  font-size: 22px;
+  text-align: center;
+  text-shadow: 0px 2px 0px black,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+  margin: 2px;
+  color: #f0f0ff;
+}
+
+.section8{
+  
+  font-family: 'Black Han Sans', sans-serif;
+  background: black;
+  background-size: cover;
+  border-radius: 22px;
+  border: 2px solid;
+  border-color: #f0f0ff;
+  width: 44%;
+  height: 400px;
+  text-align: center;
+  float: left;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  padding: 0px;
+  margin: 24px;
+}
+
+
+.ico8{
+  font-size: 22px;
+  text-align: center;
+  text-shadow: 0px 2px 0px black,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+  margin: 2px;
+  color: #f0f0ff;
+}
+
+.section9{
+  
+  font-family: 'Black Han Sans', sans-serif;
+  background: black;
+  background-size: cover;
+  border-radius: 22px;
+  border: 2px solid;
+  border-color: #f0f0ff;
+  width: 44%;
+  height: 400px;
+  text-align: center;
+  float: left;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  padding: 0px;
+  margin: 24px;
+}
+
+
+.ico9{
+  font-size: 22px;
+  text-align: center;
+  text-shadow: 0px 2px 0px black,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+  margin: 2px;
+  color: #f0f0ff;
+}
+
+.section10{
+  
+  font-family: 'Black Han Sans', sans-serif;
+  background: black;
+  background-size: cover;
+  border-radius: 22px;
+  border: 2px solid;
+  border-color: #f0f0ff;
+  width: 44%;
+  height: 400px;
+  text-align: center;
+  float: left;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  padding: 0px;
+  margin: 24px;
+}
+
+
+.ico10{
+  font-size: 22px;
+  text-align: center;
+  text-shadow: 0px 2px 0px black,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+  margin: 2px;
+  color: #f0f0ff;
+}
+
+.aside2{
+  background-image: url("https://i5.walmartimages.com/asr/c30cd00d-bd4b-42a1-a80b-6eff5fff897b.6bf326bec8bf24a1d8ff4853a12b426d.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF");
+  font-family: 'Black Han Sans', sans-serif;
+  border-radius: 22px;
+  border: 2px solid;
+  border-color: black;
+  width: 26%;
+  height: 250px;
+  float: right;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  color: #f0f0ff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 24px;
+  text-align: center;
+  color: black;
+  text-shadow: 0px 2px 0px #f0f0ff,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+}
+
+.aside3{
+  background-image: url("https://images.alphacoders.com/109/1093845.jpg");
+  font-family: 'Black Han Sans', sans-serif;
+  border-radius: 22px;
+  border: 2px solid;
+  border-color: black;
+  width: 28%;
+  height: 330px;
+  float: right;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  color: #f0f0ff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 24px;
+  text-align: center;
+  color: black;
+  text-shadow: 0px 2px 0px #f0f0ff,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+}
+
+.aside4{
+  background-image: url("https://e0.pxfuel.com/wallpapers/78/863/desktop-wallpaper-playstation-3-video-game-hq-playstation-3-2019-ps3-console.jpg");
+  font-family: 'Black Han Sans', sans-serif;
+  border-radius: 22px;
+  border: 2px solid;
+  border-color: black;
+  width: 26%;
+  height: 290px;
+  float: right;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  color: #f0f0ff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 24px;
+  text-align: center;
+  color: black;
+  text-shadow: 0px 2px 0px #f0f0ff,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+}
+
+.aside5{
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/900/30/490/sony-console-gamepad-playstation-4-wallpaper-preview.jpg");
+  font-family: 'Black Han Sans', sans-serif;
+  border-radius: 22px;
+  border: 2px solid;
+  border-color: black;
+  width: 26%;
+  height: 290px;
+  float: right;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  color: #f0f0ff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 24px;
+  text-align: center;
+  color: black;
+  text-shadow: 0px 2px 0px #f0f0ff,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+}
+
+.aside6{
+  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/856/179/desktop-wallpaper-playstation-5-console-video-games-ps5-controller-neon.jpg");
+  font-family: 'Black Han Sans', sans-serif;
+  border-radius: 22px;
+  border: 2px solid;
+  border-color: black;
+  width: 26%;
+  height: 340px;
+  float: right;
+  box-shadow: 0px 4px 0px black,
+              0px 6px 8pt black,
+              2px 4px 16px rgba(0,0,0,.6);
+  color: #f0f0ff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 24px;
+  text-align: center;
+  color: black;
+  text-shadow: 0px 2px 0px #f0f0ff,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+}
+
+
+.r{
+  font-size: 14px;
+  text-shadow: 0px 2px 0px black,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+  margin: 2px;
+}
+
+a:link{
+  font-family: 'Black Han Sans', sans-serif;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #f0f0ff;
+}
+  
+a{
+  color: #0070D1;
+}
+
+a:active{
+  color:  #0070D1;
+}
+
+.fa-brands:hover{
+  color: #0070D1;
+}
+
+.fa-solid:hover{
+  color: #0070D1;
+}
+
+.ti{
+  color: #f0f0ff;
+  font-size: 16px;
+  text-shadow: 0px 2px 0px black,
+              0px 4px 8pt black,
+              0px 4px 16px rgba(0,0,0,.6);
+  margin: 2px;
+}
+
+.ti:hover{
+  color: #0070D1;
+}
